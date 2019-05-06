@@ -10,6 +10,9 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+  @IBOutlet weak var fontFamiliesPopup: NSPopUpButton!
+  @IBOutlet weak var fontTypesPopup: NSPopUpButton!
+  @IBOutlet weak var sampleLabel: NSTextField!
   override func viewDidLoad() {
     super.viewDidLoad()
 
@@ -22,6 +25,13 @@ class ViewController: NSViewController {
     }
   }
 
-
+  @IBAction func handleFontFamilySelection(_ sender: Any) {
+  }
+  
+  @IBAction func handleFontTypeSelection(_ sender: Any) {
+  }
+  
+  @IBAction func displayAllFonts(_ sender: Any) {
+  }
 }
 
