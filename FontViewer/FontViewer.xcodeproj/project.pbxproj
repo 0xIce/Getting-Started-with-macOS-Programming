@@ -11,6 +11,7 @@
 		FBED61652280099C0095B837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED61642280099C0095B837 /* ViewController.swift */; };
 		FBED61672280099E0095B837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBED61662280099E0095B837 /* Assets.xcassets */; };
 		FBED616A2280099E0095B837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBED61682280099E0095B837 /* Main.storyboard */; };
+		FBED617322804A3F0095B837 /* FontsDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED617222804A3F0095B837 /* FontsDisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		FBED61692280099E0095B837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBED616B2280099E0095B837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBED616C2280099E0095B837 /* FontViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FontViewer.entitlements; sourceTree = "<group>"; };
+		FBED617222804A3F0095B837 /* FontsDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsDisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				FBED61622280099C0095B837 /* AppDelegate.swift */,
 				FBED61642280099C0095B837 /* ViewController.swift */,
+				FBED617222804A3F0095B837 /* FontsDisplayViewController.swift */,
 				FBED61662280099E0095B837 /* Assets.xcassets */,
 				FBED61682280099E0095B837 /* Main.storyboard */,
 				FBED616B2280099E0095B837 /* Info.plist */,
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBED61652280099C0095B837 /* ViewController.swift in Sources */,
+				FBED617322804A3F0095B837 /* FontsDisplayViewController.swift in Sources */,
 				FBED61632280099C0095B837 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
